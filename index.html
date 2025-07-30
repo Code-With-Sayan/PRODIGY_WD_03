@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Tic Tac Toe</h1>
+    <div class="mode-select">
+      <label><input type="radio" name="mode" value="pvp" checked> Player vs Player</label>
+      <label><input type="radio" name="mode" value="ai"> Player vs AI</label>
+    </div>
+    <div class="board" id="board"></div>
+    <div class="status" id="status">Player X's Turn</div>
+    <button id="resetBtn">Reset Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
